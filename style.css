@@ -39,3 +39,10 @@ body{
 .imag img{
     width: 130px;
 }
+.score{
+    display: flex;
+    flex-direction: row;
+}
+.score div{
+    margin: 10px;
+}
