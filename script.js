@@ -38,6 +38,15 @@ function jouer(userSelection,computerSection){
     scoreOrdinateur.textContent=computerScore;
 
 }
+
+function resetGame(){
+    chose.style.display='none';
+    scoreUser.textContent=0;
+    scoreOrdinateur.textContent=0;
+
+}
+
 rock.addEventListener('click', () => jouer('rock', choseComputer()));
 paper.addEventListener('click', () => jouer('paper',choseComputer()));
 scissor.addEventListener('click', () => jouer('scissor' , choseComputer()));
+btnReset.addEventListener('click', resetGame);
