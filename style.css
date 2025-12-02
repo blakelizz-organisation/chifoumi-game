@@ -8,6 +8,7 @@ body{
     justify-content: center;
     align-items: center;
 }
+
 .contenu{
     display: flex;
     /*width: 100%;*/
@@ -17,32 +18,39 @@ body{
     border: 2px solid black;
     padding: 5px;
 }
+
 .chose{
     display: none;
     flex-direction: row;
 }
+
 .result{
     display: flex;
     flex-direction: row;
     align-items: center;
     justify-content: center;
 }
+
 #vs{
     width: 130px;
 }
+
 .imag{
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
 }
+
 .imag img{
     width: 130px;
 }
+
 .score{
     display: flex;
     flex-direction: row;
 }
+
 .score div{
     margin: 10px;
 }
