@@ -40,6 +40,7 @@ function jouer(userSelection,computerSection){
 }
 
 function resetGame(){
+    
     chose.style.display='none';
     scoreUser.textContent=0;
     scoreOrdinateur.textContent=0;
